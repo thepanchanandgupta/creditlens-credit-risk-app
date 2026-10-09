@@ -2,7 +2,7 @@
 
 An end-to-end credit-risk project on the UCI *Default of Credit Card Clients* dataset (30,000 customers, Taiwan, 2005), with a Streamlit app for scoring customers.
 
-> **Academic portfolio project. Not validated or approved for any real lending decision.**
+> **Academic project.**
 
 ## What is in this repo
 | Path | Purpose |
