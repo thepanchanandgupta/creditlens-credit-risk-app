@@ -1,0 +1,69 @@
+{
+  "threshold": 0.24471237780300834,
+  "features": [
+    "LIMIT_BAL",
+    "EDUCATION",
+    "AGE",
+    "PAY_1",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "metrics": {
+    "threshold": 0.245,
+    "accuracy": 0.7845,
+    "precision": 0.5112433862433863,
+    "recall": 0.5825169555388093,
+    "f1": 0.5445579429376541,
+    "roc_auc": 0.7742475453030613,
+    "avg_precision": 0.5540304514675567,
+    "brier": 0.13554066616116534,
+    "test_default_rate": 0.22116666666666668,
+    "test_size": 6000
+  },
+  "bands": {
+    "Low": {
+      "customers": 3092,
+      "default_rate": 0.09831824062095731
+    },
+    "Medium": {
+      "customers": 1396,
+      "default_rate": 0.17908309455587393
+    },
+    "High": {
+      "customers": 818,
+      "default_rate": 0.3801955990220049
+    },
+    "Very high": {
+      "customers": 694,
+      "default_rate": 0.6657060518731989
+    }
+  },
+  "band_edges": [
+    0,
+    0.15,
+    0.24471237780300834,
+    0.5,
+    1.0001
+  ],
+  "band_names": [
+    "Low",
+    "Medium",
+    "High",
+    "Very high"
+  ]
+}
